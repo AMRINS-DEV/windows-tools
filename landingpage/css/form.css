@@ -1,0 +1,148 @@
+#form_section {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+
+/* form */
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+/* ---------------------------------- */
+#couteDown {
+  width: 350px;
+}
+#couteDown h2 {
+  color: var(--blue);
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+  font-size: 600;
+}
+
+#couteDown .counter {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#couteDown article {
+  width: 60px;
+  height: 70px;
+  border: solid 1px var(--blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+#couteDown article .counter_value {
+  font-size: 32px;
+  color: var(--blue);
+  font-weight: bold;
+}
+
+#couteDown article .counter_type {
+  font-size: 15px;
+  color: var(--blue);
+  font-weight: 400;
+}
+/* ---------------------------------- */
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 450px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+#form h1 {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#form p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #848484;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#form article {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+#form .input_text {
+  width: 300px;
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 18px;
+  outline: none;
+  font-weight: 700;
+}
+
+#form .input_text::placeholder {
+  font-size: 16px;
+  color: #bbbbbb;
+  font-weight: 400;
+}
+
+#form .label_1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+/* -------------------------------- */
+.checkbox {
+  border-color: var(--blue);
+  width: 20px;
+}
+
+.checkbox_label {
+  font-size: 20px;
+  color: #0e77bc;
+  font-weight: 400;
+}
+/* ---------------------------- */
+.submit_button {
+  width: 300px;
+  background-color: var(--blue);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+}
+.submit_button span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+}
+.submit_button i {
+  color: #fff;
+  font-size: 20px;
+}

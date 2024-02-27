@@ -1,0 +1,88 @@
+/* defaults */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --black: #333;
+  --orange: #fb8f4c;
+  --blue: #0e77bc;
+  --light-tblue: #72c7ff;
+  --green: #25cb63;
+  --light-green: #60db8e;
+  --grey: #d8d8d8;
+  --dark-grey: #acacac;
+  --light-grey: #f4f4f4;
+}
+
+body,
+html,
+* {
+  font-family: "Rajdhani", sans-serif;
+  color: #333;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ------------------------------------------------ */
+
+#main {
+  display: flex;
+  min-height: 100px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#content_section {
+  flex: 1;
+  width: 100%;
+}
+
+.article_title img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.content_main_title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding: 30px;
+}
+
+.article_1 .content_header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.article_1 .content_header > span {
+    color: #9C9A9A;
+    font-size: 16px;
+}
+
+.article_1 .content_header  .imgs {
+    display: flex;
+    gap: 50px;
+}
+
+.article_1 .content_header  .imgs img {
+    width: 50px;
+    height: 50px;
+}
+
+.article_1 .content_text {
+    margin: 30px 0;
+}
+
+.article_1 .content_text p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.list > div {
+    
+}
